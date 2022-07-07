@@ -70,7 +70,7 @@ function App() {
         <div className="pl-2 pt-2 box-bottom bg1">
           <div className="box-input">
             <input onChange={(e) => onContentChange(e)} value={state.message} name="message"
-                placeholder="Enter message" 
+                placeholder="Enter your message" 
                 className="bg2 pl-2 input-text" 
                 type="text" />
           </div>
